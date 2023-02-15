@@ -7,6 +7,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       <View style={tw`p-5`}> 
+        {/* Logo Image */}
         <Image 
             style={{
 
@@ -19,6 +20,7 @@ const HomeScreen = () => {
             }}
         />
 
+        {/* Navigation Options */}
         <NavOptions />
 
       </View>
